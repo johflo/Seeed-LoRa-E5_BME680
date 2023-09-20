@@ -205,7 +205,7 @@ static void bme68x_bsec_trigger_measurement(bsec_bme_settings_t *sensor_settings
 {
     uint16_t meas_period;
     //uint8_t set_required_settings;
-    int8_t bme68x_status = BME68X_OK;
+    uint8_t bme68x_status = BME68X_OK;
 	uint8_t current_op_mode;
         
     /* Check if a forced-mode measurement should be triggered now */
@@ -260,7 +260,7 @@ static void bme68x_bsec_read_data(int64_t time_stamp_trigger, bsec_input_t *inpu
     int32_t bsec_process_data)
 {
     static struct bme68x_data data;
-    int8_t bme68x_status = BME68X_OK;
+    uint8_t bme68x_status = BME68X_OK;
 	uint8_t n_fields;
     
     /* We only have to read data if the previous call the bsec_sensor_control() actually asked for it */
@@ -455,7 +455,6 @@ void bsec_iot_loop(sleep_fct sleep, get_timestamp_us_fct get_timestamp_us, outpu
             if (bsec_status < BSEC_OK)
             {
                 printf("ERROR: bsec_sensor_control: %d\n", bsec_status);
-                return 1;
             }
             else
             {

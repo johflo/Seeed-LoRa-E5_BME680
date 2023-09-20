@@ -51,7 +51,7 @@
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
-//void SystemClock_Config(void);
+void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -89,12 +89,13 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_LoRaWAN_Init();
   MX_I2C3_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   BME680_BSEC_Init();
   /* USER CODE END 2 */
-  MX_LoRaWAN_Init();
+
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
