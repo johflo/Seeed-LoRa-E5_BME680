@@ -1,0 +1,18 @@
+### Module positions - created on Wed Sep 21 11:43:56 2022 ###
+### Printed by Pcbnew version (6.0.1)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                              PosX       PosY       Rot  Side
+AE1       Antenna     Johanson_0868AT43A0020                           130.1920   -79.7510    0.0000  top
+C1        100nF       C_0402_1005Metric                                110.7420   -95.6960  -90.0000  top
+C3        4.7µF      C_0603_1608Metric                                112.2420   -96.1510  -90.0000  top
+C4        100nF       C_0402_1005Metric                                124.8510  -104.0885  -90.0000  top
+C5        100nF       C_0402_1005Metric                                126.1210  -104.0635  -90.0000  top
+J1        Conn_01x06  PinHeader_1x06_P2.54mm_Vertical                   87.8420   -87.6760    0.0000  top
+J2        Conn_01x04  PinHeader_1x04_P2.54mm_Vertical                  132.1170   -99.8510  180.0000  top
+R1        4k7         R_0603_1608Metric                                123.2420  -107.3685   90.0000  top
+R2        4k7         R_0603_1608Metric                                124.8170  -107.3435   90.0000  top
+SW1       RST         Alps_5.2x5.2                                     100.5840   -81.5340    0.0000  top
+U1        LoRa-E5     LoRa-E5                                          115.9000   -86.9500   90.0000  top
+U2        BME680      Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering   128.4420  -107.5885  180.0000  top
+## End

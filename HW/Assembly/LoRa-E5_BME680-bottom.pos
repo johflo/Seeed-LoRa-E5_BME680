@@ -1,0 +1,7 @@
+### Module positions - created on Tue Sep 20 21:27:25 2022 ###
+### Printed by Pcbnew version (6.0.2)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                                  PosX       PosY       Rot  Side
+BT1       Battery_Cell  BatteryHolder_Keystone_3008_1x2450  -108.5920   -95.2760    0.0000  bottom
+## End
