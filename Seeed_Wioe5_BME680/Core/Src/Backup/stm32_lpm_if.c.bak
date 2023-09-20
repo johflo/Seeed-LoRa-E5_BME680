@@ -23,9 +23,6 @@
 #include "stm32_lpm.h"
 #include "stm32_lpm_if.h"
 #include "usart_if.h"
-#include "main.h"
-#include "tim.h"
-#include "sys_app.h"
 
 /* USER CODE BEGIN Includes */
 
@@ -121,12 +118,9 @@ void PWR_ExitStopMode(void)
     ADC interface
     DAC interface USARTx, TIMx, i2Cx, SPIx
     SRAM ctrls, DMAx, DMAMux, AES, RNG, HSEM  */
-  HAL_Init();
-  SystemClock_Config();
-  MX_TIM2_Init();
+
   /* Resume not retained USARTx and DMA */
   vcom_Resume();
-  APP_LOG(TS_ON, VLEVEL_M, "Stop mode exit\r\n");
   /* USER CODE BEGIN ExitStopMode_2 */
 
   /* USER CODE END ExitStopMode_2 */

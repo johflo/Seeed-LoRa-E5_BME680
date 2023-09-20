@@ -66,10 +66,8 @@ void SystemClock_Config(void);
 #define DBG3_GPIO_Port GPIOB
 #define DBG4_Pin GPIO_PIN_4
 #define DBG4_GPIO_Port GPIOB
-#define USARTx_RX_Pin GPIO_PIN_7
-#define USARTx_RX_GPIO_Port GPIOB
-#define LED2_Pin GPIO_PIN_5
-#define LED2_GPIO_Port GPIOB
+#define USARTx_RX_Pin GPIO_PIN_10
+#define USARTx_RX_GPIO_Port GPIOA
 #define DBG1_Pin GPIO_PIN_0
 #define DBG1_GPIO_Port GPIOA
 #define USARTx_TX_Pin GPIO_PIN_6
@@ -80,6 +78,7 @@ void SystemClock_Config(void);
 #define RF_CTRL1_GPIO_Port GPIOA
 #define RF_CTRL2_Pin GPIO_PIN_5
 #define RF_CTRL2_GPIO_Port GPIOA
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
